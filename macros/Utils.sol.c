@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: GPL-3
 pragma solidity ^0.8.17;
 
+// This file will be preprocessed with
+// gcc -E Utils.sol.c
+// generating the final Solidity file.
+
 #define E(name, args...) event name(args);
 
 #define eq_prim(elem_type) function eq(elem_type x, elem_type y) pure returns (bool) { \
