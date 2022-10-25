@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-3
+// THIS SOLIDITY SOURCE IS AUTO-GENERATED FROM `macros/Utils.sol.c`.
+
 pragma solidity ^0.8.17;
 
 library Events {
