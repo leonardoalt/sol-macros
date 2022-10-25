@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: GPL-3
 pragma solidity ^0.8.17;
 
-// THIS SOLIDITY SOURCE IS AUTO-GENERATED FROM `macros/Utils.sol.c`.
-
 #define E(name, args...) event name(args);
 
 #define eq_prim(elem_type) function eq(elem_type x, elem_type y) pure returns (bool) { \
